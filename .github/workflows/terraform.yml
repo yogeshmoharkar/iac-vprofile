@@ -13,7 +13,7 @@ on:
       - terraform/**
 
 env:
- # Creds for deployment to AWS
+ # Creds for deployment to AWS account
  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
  AWS_DEFAULT_REGION: us-east-1
